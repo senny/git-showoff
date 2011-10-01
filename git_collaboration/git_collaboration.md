@@ -59,5 +59,51 @@ Lokale Änderungen an ein Remote senden
 !SLIDE center
 ![git_collaboration](git-347.png)
 
+!SLIDE
+# Befehle #
+
+!SLIDE commandline small
+# git-remote [command] [name] #
+
+Remote hinzufügen
+    $ git remote add origin git@github.com:senny/git-showoff.git
+
+    $ git remote add origin https://senny@github.com/senny/git-showoff.git
+
+    $ git remote add origin git://github.com/senny/git-showoff.git
+
+    $ git remote add origin file:///Users/senny/Projects/git-showoff
+
+    $ git remote add origin /Users/senny/Projects/git-showoff
+
+Remote löschen
+    $ git remote rm origin
+
+!SLIDE commandline
+# git-fetch [remote] [refspec] #
+
+Alle Änderungen von "origin" holen
+    $ git fetch origin
+
+Änderungen auf dem "master" branch von "origin" holen
+    $ git fetch origin master
+
+!SLIDE commandline
+# git-push [remote] [refspec] #
+Änderungen auf dem "master" Branch veröffentlichen
+    $ git push origin master
+
+"new_master" unter dem Namen "master" veröffentlichen
+    $ git push origin new_master:master
+
+Veröffentlichter Branch löschen
+    $ git push origin :master
+
+!SLIDE commandline
+# git pull [remote] [refspec]
+
+"master" aktualisieren und integrieren
+    $ git pull origin master
+
 !SLIDE center
 ![git_collaboration](questions.jpg)
