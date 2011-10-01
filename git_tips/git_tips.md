@@ -10,7 +10,7 @@
     $ git config alias.lg "log --graph"
     $ git config alias.lga "log --decorate --oneline --graph --all"
 
-!SLIDE commandline
+!SLIDE commandline smaller
 # Bash Completion #
 
     $ cp /usr/local/Cellar/git/1.7.6.1/etc/bash_completion.d/git-completion.bash ~/.git-bash-completion.sh
