@@ -27,6 +27,14 @@ Inhalt eines Remotes holen und integrieren (Fetch + Merge)
 # Push #
 Lokale Änderungen an ein Remote senden
 
+!SLIDE smbullets
+# Internet <-> Git
+
+* minimale Kommunikation mit Remotes
+* Das meiste geht offline (ausser: fetch, pull, push)
+* Ein Git-Repository kann mit beliebig vielen Remotes verknüpft werden
+* Auf Remotes kann man entweder lesen, schreiben oder beides
+
 !SLIDE
 # Beispiel: Ablauf der Zusammenarbeit mit Git #
 
