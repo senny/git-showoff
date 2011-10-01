@@ -58,3 +58,6 @@ Lokale Änderungen an ein Remote senden
 
 !SLIDE center
 ![git_collaboration](git-347.png)
+
+!SLIDE center
+![git_collaboration](questions.jpg)

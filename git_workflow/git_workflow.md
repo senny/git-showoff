@@ -23,3 +23,6 @@
 !SLIDE center
 
 ![git_workflow](gitflow.png)
+
+!SLIDE center
+![git_workflow](questions.jpg)
