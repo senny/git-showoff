@@ -1,3 +1,3 @@
-! SLIDE
+!SLIDE
 
 # Git Collaboration #
