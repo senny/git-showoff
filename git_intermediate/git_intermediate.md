@@ -24,6 +24,30 @@
     db/*.sqlite3
 
 !SLIDE
+# Stash #
+
+* Aktuelle Arbeiten "zwischenspeichern"
+* Kann jederzeit "hervorgeholt" werden
+* Äderungen auf einen anderen Branch verschieben
+
+!SLIDE commandline incremental
+
+    $ git status
+     ## master
+     M git_intermediate/git_intermediate.md
+
+    $ git stash
+
+    $ git status
+     ## master
+
+    $ git stash pop
+
+    $ git status
+     ## master
+     M git_intermediate/git_intermediate.md
+
+!SLIDE
 # Rebase #
 
 !SLIDE center
