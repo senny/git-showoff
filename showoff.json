@@ -1,6 +1,7 @@
 { "name": "Git Workshop",
   "sections": [
     {"section":"intro"},
+    {"section":"git_installation"},
     {"section":"git_basics"},
     {"section":"git_concepts"},
     {"section":"git_collaboration"},
