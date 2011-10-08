@@ -4,10 +4,10 @@
 
 !SLIDE center
 ## Delta Storage (z.B. Subversion) ##
-![](img/18333fig0104-tn.png)
+![](18333fig0104-tn.png)
 
 ## Snapshot Storage (z.B. GIT) ##
-![](img/18333fig0105-tn.png)
+![](18333fig0105-tn.png)
 
 
 
