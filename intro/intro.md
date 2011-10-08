@@ -1,7 +1,7 @@
 !SLIDE
 ## Johannes Bühler [Canoo] ##
-* A
-* B
+* Java / Groovy / Grails 
+* Git seit 2009
 
 Find me on Github: https://github.com/jonnybbb
 
