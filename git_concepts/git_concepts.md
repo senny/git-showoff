@@ -1,43 +1,6 @@
-!SLIDE bullets
-# Four stage thinking
-![](img/git_stages_.png)
-
- -> commit often, not only for yourself also for git to help tracking eg renames
-overview of the staging areas
-
-!SLIDE
-# Create our first repo
-
-git init
-touch readme.txt
-git add
-git status
-
--> explain content tracking
-
--> explain file stati
-
-git mv 
-mv 
-git add . -A
-
-!SLIDE
-ignore, remove, rename files
-
-!SLIDE 
-# Speed
-see whygitisbetterthanx.com
-use the time command to show speed
-
-use script to commit 1000 of files
-
 !SLIDE
 
 # Git Concepts and internals #
-
-## Content tracker ##
-tracks content not files
-every commit is a copy  
 
 !SLIDE center
 ## Delta Storage (z.B. Subversion) ##
@@ -45,6 +8,8 @@ every commit is a copy
 
 ## Snapshot Storage (z.B. GIT) ##
 ![](img/18333fig0105-tn.png)
+
+
 
 
 !SLIDE bullets

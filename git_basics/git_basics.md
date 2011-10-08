@@ -1,32 +1,36 @@
 !SLIDE
 # Git Basics #
 
-!SLIDE bullets
-## Git Installation on Mac ##
-* git-osx-installer
-* homebrew
-* macports
+!SLIDE center
+# Four stage thinking
+![git_stages](git_stages.png)
+
+.notes commit often, not only for yourself also for git to help tracking eg renames <br> overview of the staging areas
+
+!SLIDE commandline incremental 
+## Unser erstes Repository ##
+
+    $ git init
+    $ touch readme.txt
+    $ git add
+    $ git status
+
+.notes explain content tracking \n(eg delete a file and add it in a different subfolder again)
+
+
 
 !SLIDE center
-## Git Setup and Getting started
 
-!SLIDE center
-## User identity 
+![git_file_stati](git_file_stati.png)
 
-git config --global user.name "Your Name"
-git config --global user.email "your.name@switch.ch"
+.notes explain file stati
 
-!SLIDE center
-## User identity 
-git config --global color.ui 
+!SLIDE
+## ignore, remove, rename files
 
 
-nothing to do with  authorization and authentication
-architecture principle of git composing existing tools (https, ssh ...)
+!SLIDE 
+# Performance
 
-!SLIDE center
-## CharacterLineFeed 
-line ctrl (siehe github)
+.notes use the time command to show speed <br> use script to commit 1000 of files
 
-!SLIDE center
-![](img/git_is_not_an_evoltion.png)
