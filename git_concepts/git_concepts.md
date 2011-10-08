@@ -1,6 +1,88 @@
+!SLIDE bullets
+# Four stage thinking
+![](img/git_stages_.png)
+
+ -> commit often, not only for yourself also for git to help tracking eg renames
+overview of the staging areas
+
+!SLIDE
+# Create our first repo
+
+git init
+touch readme.txt
+git add
+git status
+
+-> explain content tracking
+
+-> explain file stati
+
+git mv 
+mv 
+git add . -A
+
+!SLIDE
+ignore, remove, rename files
+
+!SLIDE 
+# Speed
+see whygitisbetterthanx.com
+use the time command to show speed
+
+use script to commit 1000 of files
+
 !SLIDE
 
-# Git Concepts #
+# Git Concepts and internals #
+
+## Content tracker ##
+tracks content not files
+every commit is a copy  
+
+!SLIDE center
+## Delta Storage (z.B. Subversion) ##
+![](img/18333fig0104-tn.png)
+
+## Snapshot Storage (z.B. GIT) ##
+![](img/18333fig0105-tn.png)
+
+
+!SLIDE bullets
+# GIT does not rely on a central repository#
+* Every repository is a clone 
+ ** contains all information 
+ ** can work with the clone independently
+ ** no master repository
+
+!SLIDE bullets
+# Ein Commit in GIT umfasst #
+* Autor (Name, E-Mail, Datum/Zeit)
+* Committer (Name, E-Mail, Datum/Zeit)
+* 0-n Parents
+* Beschreibungstext
+* Snapshot
+
+!SLIDE bullets
+# Alle Commits in GIT #
+* werden durch den SHA1-Hash ihres Inhalts eindeutig identifiziert
+* sind unveränderlich
+* werden wiederverwendet
+
+!SLIDE bullets
+# Branches in GIT #
+* Branch = Referenz auf ein Commit
+* Ausgecheckter Branch "bewegt" sich beim Committen
+* Jedes Repository hat seine Branches
+
+!SLIDE bullets
+# Das .git Verzeichnis #
+* liegt im Root der Working Copy
+* enthält alle Commits
+* enthält Branches
+* enthält (lokale) Konfiguration etc.
+!SLIDE center
+# GIT Einführung #
+
 
 !SLIDE
 # Treeish #
@@ -70,3 +152,4 @@
 
     7b593b5..51bea1
     master..my_feature
+
