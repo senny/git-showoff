@@ -1,5 +1,5 @@
-!SLIDE
-# Git Basics #
+!SLIDE subsection
+# Git Grundlagen #
 
 !SLIDE commandline incremental 
 ## Unser erstes Repository ##
@@ -21,17 +21,17 @@
 # Die 4 Stufen in git #
 ![git_stages](git_stages.png)
 
-.notes commit often, not only for yourself also for git to help tracking eg renames <br> overview of the staging areas
+.notes commit often, not only for yourself also for git to help tracking eg renames overview of the staging areas
 
 !SLIDE center
-# Git Datei Stati #
+# Mögliche Stati von Dateien in einem git Repository #
  
 ![git_file_stati](git_file_stati.png)
 
 .notes explain file stati
 
 !SLIDE
-## remove, rename and ignoring files ##
+## remove, rename und ignore von Dateien ##
 
 !SLIDE commandline
 ## remove ##
@@ -50,7 +50,7 @@
 
 !SLIDE code
 ## rename detection      
-    detect renames 
+    
     $git log -M80%     
 
 !SLIDE commandline

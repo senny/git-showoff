@@ -5,15 +5,33 @@
 !SLIDE
 ## Architecture ##
 
-!SLIDE
-## Plumbing and Porcelain
+!SLIDE full-page 
 ![plumbing_and_porcelain](plumbing_porcelain.png)
 
-!SLIDE
-![plumbing_and_porcelain_commands](plumbing_porcelain_2_.png)
+!SLIDE full-page 
+![plumbing_and_porcelain_commands](plumbing_porcelain_2.png)
 
 !SLIDE code
 log HEAD^^ ist eine Kombination aus rev-parse + log
+
+!SLIDE 
+# Git Tips #
+
+!SLIDE commandline small
+# Aliases #
+
+    $ git config alias.co checkout
+    $ git config alias.mnf "merge --no-ff"
+    $ git config alias.l "log --decorate --oneline"
+    $ git config alias.lg "log --graph"
+    $ git config alias.lga "log --decorate --oneline --graph --all"
+
+!SLIDE commandline smaller
+# Bash Completion #
+
+    $ cp /usr/local/Cellar/git/1.7.6.1/etc/bash_completion.d/git-completion.bash ~/.git-bash-completion.sh
+    $ echo "source ~/.git-bash-completion.sh" >> ~/.bash_profile
+    $ . ~/.bash_profile
 
 !SLIDE bullets
 ## Storage ##
@@ -45,7 +63,24 @@ log HEAD^^ ist eine Kombination aus rev-parse + log
 
 
 !SLIDE
-## centralized VCSs use sequential revision numbers ##
+## Server orientierte VCSs verwenden sequentielle Versions Nummern ##
+
+!SLIDE
+## Git verwendet den SHA-1 hash 
+
+!SLIDE bullets
+# Ein Commit in GIT umfasst #
+* Autor (Name, E-Mail, Datum/Zeit)
+* Committer (Name, E-Mail, Datum/Zeit)
+* 0-n Parents
+* Beschreibungstext
+* Snapshot
+
+!SLIDE bullets
+# Alle Commits in GIT #
+* werden durch den SHA1-Hash ihres Inhalts eindeutig identifiziert
+* sind unveränderlich
+* werden wiederverwendet
 
 
 !SLIDE center

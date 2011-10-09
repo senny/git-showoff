@@ -32,11 +32,16 @@
     $ git config --global user.name "Firstname Lastname"
     $ git config --global user.email "your_email@youremail.com"
 
-!SLIDE commandline incremental
-## Commandline ##
-    $ git config --global color.ui
-
 .notes nothing to do with  authorization and authentication    architecture principle of git composing existing tools (https, ssh ...)
+
+!SLIDE commandline
+# Farben #
+
+    $ git config --global color.ui
+    $ git config --global color.branch auto
+    $ git config --global color.diff auto
+    $ git config --global color.interactive auto
+    $ git config --global color.status auto
 
 !SLIDE commandline
 ## Line endings ##
