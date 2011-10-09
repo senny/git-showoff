@@ -87,6 +87,35 @@ log HEAD^^ ist eine Kombination aus rev-parse + log
 * Ausgecheckter Branch "bewegt" sich beim Committen
 * Jedes Repository hat seine Branches
 
+!SLIDE commandline 
+# Branching #
+## Erzeugen   
+    $git branch branchname
+## Anzeigen
+    $git branch -a
+    $git branch -r
+    $git branch --no-merged
+
+## Löschen 
+    $git branch -d branchname
+
+!SLIDE commandline
+# Merging
+    $git merge branchname
+
+!SLIDE bullets
+# Merge Strategien
+* recurisve
+* octopus
+
+!SLIDE
+# Merge Konflikte lösen
+
+!SLIDE
+# Merge Tooling
+## Wie konfiguriert man ein graphisches GUI
+
+
 !SLIDE bullets
 # Das .git Verzeichnis #
 * liegt im Root der Working Copy

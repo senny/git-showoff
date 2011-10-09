@@ -9,7 +9,8 @@
     $ git add readme.txt
     $ git status
     $ git commit 
-    $ mkdir subdir 
+    $ mkdir subdir
+    $ cd subdir  
     $ touch readme2.txt
     $ git status
     $ git add .
