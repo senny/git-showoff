@@ -13,13 +13,6 @@
 
 
 !SLIDE bullets
-# GIT does not rely on a central repository#
-* Every repository is a clone 
- ** contains all information 
- ** can work with the clone independently
- ** no master repository
-
-!SLIDE bullets
 # Ein Commit in GIT umfasst #
 * Autor (Name, E-Mail, Datum/Zeit)
 * Committer (Name, E-Mail, Datum/Zeit)
