@@ -3,7 +3,7 @@
 
 !SLIDE
 ## Johannes Bühler [Canoo] ##
-* Java / Groovy / Refactoring / Continous Integration 
+* Java / Groovy / Refactoring / CI 
 * Git seit 2009
 
 Find me on Github: https://github.com/jonnybbb
@@ -21,7 +21,7 @@ Intro
 
 Installation
 
-
+Erste Schritte
 
 Konzepte
 
