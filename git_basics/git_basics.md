@@ -74,9 +74,3 @@
     coverage/*
     db/*.sqlite3
 
-
-!SLIDE 
-# Performance
-
-.notes use the time command to show speed <br> use script to commit 1000 of files
-

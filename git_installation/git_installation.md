@@ -43,15 +43,23 @@
     $ git config --global color.interactive auto
     $ git config --global color.status auto
 
+!SLIDE commandline smaller
+# Bash Completion #
+
+    $ cp /usr/local/Cellar/git/1.7.6.1/etc/bash_completion.d/git-completion.bash ~/.git-bash-completion.sh
+    $ echo "source ~/.git-bash-completion.sh" >> ~/.bash_profile
+    $ . ~/.bash_profile
+
+
 !SLIDE commandline
-## Line endings ##
+## Zeilenumbrüche ##
 .notes show default setting with git config --list
 
-### On Mac and Linux
+### Mac und Linux
 
     $ git config --global core.autocrlf input
 
-### On Windows
+### Windows
 
     $ git config --global core.autocrlf true
 

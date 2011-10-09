@@ -5,10 +5,10 @@
 !SLIDE
 ## Architecture ##
 
-!SLIDE full-page 
+!SLIDE center 
 ![plumbing_and_porcelain](plumbing_porcelain.png)
 
-!SLIDE full-page 
+!SLIDE center 
 ![plumbing_and_porcelain_commands](plumbing_porcelain_2.png)
 
 !SLIDE code
@@ -26,12 +26,6 @@ log HEAD^^ ist eine Kombination aus rev-parse + log
     $ git config alias.lg "log --graph"
     $ git config alias.lga "log --decorate --oneline --graph --all"
 
-!SLIDE commandline smaller
-# Bash Completion #
-
-    $ cp /usr/local/Cellar/git/1.7.6.1/etc/bash_completion.d/git-completion.bash ~/.git-bash-completion.sh
-    $ echo "source ~/.git-bash-completion.sh" >> ~/.bash_profile
-    $ . ~/.bash_profile
 
 !SLIDE bullets
 ## Storage ##
