@@ -10,6 +10,7 @@
     {"section":"git_internals"},
     {"section":"git_intermediate"},
     {"section":"git_advanced"},
-    {"section":"references"}
+    {"section":"references"},
+    {"section":"outro"}
   ]
 }

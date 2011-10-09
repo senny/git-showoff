@@ -13,3 +13,22 @@ Find me on Github: https://github.com/jonnybbb
 * Git seit 2008
 
 Find me on Github: https://github.com/senny
+
+!SLIDE
+# Agenda #
+
+Intro
+
+Installation
+
+Konzepte
+
+Arbeiten im Team
+
+Workflow
+
+Tips
+
+Intermediate Git [Übungen]
+
+Advanced Git [Übungen]

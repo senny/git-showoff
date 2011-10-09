@@ -1,6 +1,6 @@
-!SLIDE
+!SLIDE subsection
 
-# Git Concepts and internals #
+# Git Konzepte #
 
 !SLIDE center
 ## Delta Storage (z.B. Subversion) ##
@@ -8,9 +8,6 @@
 
 ## Snapshot Storage (z.B. GIT) ##
 ![](18333fig0105-tn.png)
-
-
-
 
 !SLIDE bullets
 # GIT does not rely on a central repository#

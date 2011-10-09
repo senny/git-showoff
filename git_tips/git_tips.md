@@ -1,4 +1,4 @@
-!SLIDE
+!SLIDE subsection
 # Git Tips #
 
 !SLIDE commandline small
