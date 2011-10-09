@@ -51,6 +51,40 @@
 !SLIDE
 # Interactive Rebase #
 
+## History neu schreiben ##
+Commit-Messages ändern
+
+Reihenfolge der Commits ändern
+
+Commit in mherere Commits aufteilen
+
+Commits zusammenfügen
+
+!SLIDE commandline smaller incremental
+
+    $ git rebase -i fb4c40a
+
+    pick 66c0037 more explicit description for reabasing excercise
+    pick f166874 display the reflog commands from the start
+    pick 98c4810 advanced rebaseing example
+    pick 30b385b explain merge --ff-only and --no-ff
+    pick 3af67b3 organization and cleanup
+
+    ;; Rebase fb4c40a..3af67b3 onto fb4c40a
+    ;;
+    ;;  Commands:
+    ;;  p, pick = use commit
+    ;;  r, reword = use commit, but edit the commit message
+    ;;  e, edit = use commit, but stop for amending
+    ;;  s, squash = use commit, but meld into previous commit
+    ;;  f, fixup = like "squash", but discard this commit's log message
+    ;;  x, exec = run command (the rest of the line) using shell
+    ;;
+    ;; If you remove a line here THAT COMMIT WILL BE LOST.
+    ;; However, if you remove everything, the rebase will be aborted.
+    ;;
+
+
 !SLIDE small
 # Submodules #
 
