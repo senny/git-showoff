@@ -1,5 +1,4 @@
-!SLIDE
-
+!SLIDE subsection
 # Intermediate Git #
 
 !SLIDE commandline

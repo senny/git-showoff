@@ -1,5 +1,4 @@
-!SLIDE
-
+!SLIDE subsection
 # Advanced Git #
 
 !SLIDE commandline
