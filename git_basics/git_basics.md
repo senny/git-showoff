@@ -42,14 +42,14 @@
 
 
 !SLIDE commandline
-## rename ## 
+## rename 
     $git mv from to
 
     $mv from to
     $git add to
 
 !SLIDE code
-## rename detection ##     
+## rename detection      
     detect renames 
     $git log -M80%     
 

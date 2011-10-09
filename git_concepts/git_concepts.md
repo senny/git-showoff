@@ -1,6 +1,24 @@
 !SLIDE
-
 # Git Concepts and internals #
+
+!SLIDE
+## Architecture ##
+
+!SLIDE
+## Plumbing and Porcelain
+![plumbing_and_porcelain](plumbing_porcelain.png)
+
+!SLIDE
+![plumbing_and_porcelain_commands](plumbing_porcelain_2_.png)
+
+!SLIDE code
+log HEAD^^ ist eine Kombination aus rev-parse + log
+
+!SLIDE bullets
+## Storage ##
+
+* Git storage internals
+* Git hashing
 
 !SLIDE center
 ## Delta Storage (z.B. Subversion) ##
@@ -9,22 +27,27 @@
 ## Snapshot Storage (z.B. GIT) ##
 ![](18333fig0105-tn.png)
 
+!SLIDE 
+## Git uses DAG storage ##
 
+!SLIDE 
+## Directed Acyclic Graph ##
 
-
-!SLIDE bullets
-# Ein Commit in GIT umfasst #
-* Autor (Name, E-Mail, Datum/Zeit)
-* Committer (Name, E-Mail, Datum/Zeit)
-* 0-n Parents
-* Beschreibungstext
-* Snapshot
+!SLIDE
+## vollständige Kopie des Graphen bei jedem Checkin ##
 
 !SLIDE bullets
-# Alle Commits in GIT #
-* werden durch den SHA1-Hash ihres Inhalts eindeutig identifiziert
-* sind unveränderlich
-* werden wiederverwendet
+## Optimierung ##
+* Verwendung von hardlinks
+* zlib zum komprimieren
+
+!SLIDE
+## centralized VCSs use sequential revision numbers ##
+
+
+!SLIDE center
+![git_object_model](git_object_model.png)
+
 
 !SLIDE bullets
 # Branches in GIT #
@@ -38,8 +61,6 @@
 * enthält alle Commits
 * enthält Branches
 * enthält (lokale) Konfiguration etc.
-!SLIDE center
-# GIT Einführung #
 
 
 !SLIDE
