@@ -19,7 +19,7 @@
     2d5f0b9 HEAD@{7}: checkout: moving from master to 2d5f0b92c01b3af6b18fa9fd4b9457f28c55f8c9^0
     c72570f HEAD@{8}: clone: from gerrit:Garaio/Schulungen/GIT-Intro
 
-!SLIDE commandline incremental
+!SLIDE commandline
 # Zeitachse des Reflogs verwenden #
 
 ## Branch auf den letzten Stand zurücksetzen #
