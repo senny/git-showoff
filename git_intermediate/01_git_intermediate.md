@@ -88,6 +88,29 @@
      Author: Vicent Marti <tanoku@gmail.com>
      4 files changed, 209 insertions(+), 0 deletions(-)
 
+!SLIDE smaller
+# Merging #
+
+* Normalerweise erstellt Git bei einem Merge ein Merge-Commit
+* Ein Merge-Commit hat mehr als 1 Parent.
+* Ein Merge kann rückgänig gemacht werden, wenn man das Merge-Commit
+  entfernt
+
+!SLIDE smaller
+# Fast Forward #
+
+* Merge von einem nicht abgezweiten Branch => Fast Forward
+* Fast Forward Merge => kein Merge-Commit
+* Fast Forward Merge => Branch in der History nicht mehr sichtbar
+
+!SLIDE center
+
+## git merge --no-ff ##
+![git_intermediate](merge_no_ff.png)
+
+## git merge --ff-only ##
+![git_intermediate](merge_ff_only.png)
+
 !SLIDE
 # Rebase #
 
