@@ -1,24 +1,26 @@
-!SLIDE
+!SLIDE subsection
 # Git Installation #
 
-!SLIDE
+!SLIDE commandline
 ## On UNIX ##
 
-* Compiling from Source
-    * `git://git.kernel.org/pub/scm/git/git.git`
-* Binaries from a Package manager
+### Compiling from Source
+
+    $ git clone git://git.kernel.org/pub/scm/git/git.git
+
+### Binaries from a Package manager
 
 !SLIDE
 ## On Mac ##
 
-* [MacPorts](http://www.macports.org/) (user-compiled)
 * [HomeBrew](http://github.com/mxcl/homebrew) (user-compiled)
+* [MacPorts](http://www.macports.org/) (user-compiled, not recommended)
 * [git-osx-installer](http://code.google.com/p/git-osx-installer/) (precompiled)
 
-!SLIDE 
+!SLIDE
 ## On Windows ##
 
-* [msysGit](http://code.google.com/p/msysgit/) 
+* [msysGit](http://code.google.com/p/msysgit/)
 * cygwin
 
 !SLIDE center
@@ -32,7 +34,7 @@
 
 !SLIDE commandline incremental
 ## Commandline ##
-    $ git config --global color.ui 
+    $ git config --global color.ui
 
 .notes nothing to do with  authorization and authentication    architecture principle of git composing existing tools (https, ssh ...)
 
@@ -40,13 +42,13 @@
 ## Line endings ##
 .notes show default setting with git config --list
 
-### On Mac and Linux ###
-    $ # Force files to be LF in the repo
+### On Mac and Linux
+
     $ git config --global core.autocrlf input
 
-### On Windows ###
-    $ # Force Windows to convert to platform on checkout and to LF on commit
+### On Windows
+
     $ git config --global core.autocrlf true
 
 
- 
+

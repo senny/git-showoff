@@ -1,4 +1,4 @@
-!SLIDE
+!SLIDE subsection
 
 # Git Collaboration #
 
@@ -78,7 +78,7 @@ Remote hinzufügen
 
 Remote löschen
     $ git remote rm origin
-   
+
 !SLIDE commandline
 # git-fetch [remote] [refspec] #
 
@@ -99,7 +99,7 @@ Alle Änderungen von "origin" holen
 Veröffentlichter Branch löschen
     $ git push origin :master
 
-Aufräumen von remote gelöschten branches 
+Aufräumen von remote gelöschten branches
     $ git remote prune origin
 
 !SLIDE commandline

@@ -1,5 +1,6 @@
-!SLIDE
-# Git Concepts and internals #
+!SLIDE subsection
+
+# Git Konzepte #
 
 !SLIDE
 ## Architecture ##
@@ -27,6 +28,7 @@ log HEAD^^ ist eine Kombination aus rev-parse + log
 ## Snapshot Storage (z.B. GIT) ##
 ![](18333fig0105-tn.png)
 
+
 !SLIDE 
 ## Git uses DAG storage ##
 
@@ -40,6 +42,7 @@ log HEAD^^ ist eine Kombination aus rev-parse + log
 ## Optimierung ##
 * Verwendung von hardlinks
 * zlib zum komprimieren
+
 
 !SLIDE
 ## centralized VCSs use sequential revision numbers ##
@@ -131,4 +134,3 @@ log HEAD^^ ist eine Kombination aus rev-parse + log
 
     7b593b5..51bea1
     master..my_feature
-

@@ -7,8 +7,10 @@
     {"section":"git_collaboration"},
     {"section":"git_workflow"},
     {"section":"git_tips"},
+    {"section":"git_internals"},
     {"section":"git_intermediate"},
     {"section":"git_advanced"},
-    {"section":"references"}
+    {"section":"references"},
+    {"section":"outro"}
   ]
 }
