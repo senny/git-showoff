@@ -1,6 +1,43 @@
 !SLIDE subsection
 # Advanced Git #
 
+!SLIDE
+# Commits finden mit dem Reflog #
+* Listet die Ereignisse für einen Branch auf
+* Ist nur lokal
+* Wird verwendet um 'verlorene' Commits zu finden
+
+!SLIDE smaller commandline incremental
+    $ git reflog
+    d46a905 HEAD@{0}: checkout: moving from master to topic/git-internals-praesi
+    c579eb8 HEAD@{1}: commit: Weitere Infos für Interessierte beim Walkthrough
+    2d5f0b9 HEAD@{2}: checkout: moving from topic/git-internals-praesi to master
+    d46a905 HEAD@{3}: commit: Slides für die Objekt-Datenbank
+    6d7828c HEAD@{4}: commit (amend): Bilder für die Git Objekte
+    5daab71 HEAD@{5}: commit: Bilder für die Git Objekte
+    2d5f0b9 HEAD@{6}: checkout: moving from 2d5f0b92c01b3af6b18fa9fd4b9457f28c55f8c9 to topic/git-internals-praesi
+    2d5f0b9 HEAD@{7}: checkout: moving from master to 2d5f0b92c01b3af6b18fa9fd4b9457f28c55f8c9^0
+    c72570f HEAD@{8}: clone: from gerrit:Garaio/Schulungen/GIT-Intro
+
+!SLIDE commandline incremental
+# Zeitachse des Reflogs verwenden #
+
+## Branch auf den letzten Stand zurücksetzen #
+
+    $ git pull
+    $ git reset --hard HEAD@{1}
+
+## Branch Stand in der Vergangenheit anzeigen #
+
+    $ git log -1 master@{1.week.ago}
+    70e7e03 initial commit
+
+    $ git log -1 master@{30.minutes.ago}
+    b2c20f8 run specs via rake
+
+    $ git log -1 master@{2.days.ago}
+    e34335c Merge remote-tracking branch 'origin/topic/implement_majority'
+
 !SLIDE commandline
 # Empty Branch #
 
