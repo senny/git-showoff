@@ -34,18 +34,18 @@
 ## Commandline ##
     $ git config --global color.ui 
 
-.notes nothing to do with  authorization and authentication  architecture principle of git composing existing tools (https, ssh ...)
+.notes nothing to do with  authorization and authentication    architecture principle of git composing existing tools (https, ssh ...)
 
-!SLIDE commandline incremental
-## Line endings
+!SLIDE commandline
+## Line endings ##
 .notes show default setting with git config --list
 
-### On Mac and Linux 
-
+### On Mac and Linux ###
+    $ # Force files to be LF in the repo
     $ git config --global core.autocrlf input
 
-### On Windows 
-
+### On Windows ###
+    $ # Force Windows to convert to platform on checkout and to LF on commit
     $ git config --global core.autocrlf true
 
 
