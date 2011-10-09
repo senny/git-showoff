@@ -104,8 +104,32 @@
 ![git_intermediate](rebase-2.png)
 
 !SLIDE center
-# FF-Merge #
+# Merge (FastForward) #
 ![git_intermediate](rebase-3.png)
+
+!SLIDE center
+# Rebase II #
+
+!SLIDE center
+# Ausgangslage #
+![git_intermediate](rebase2-0.png)
+
+!SLIDE center
+## git rebase --onto master server client ##
+![git_intermediate](rebase2-1.png)
+
+!SLIDE center
+## git checkout master && git merge client ##
+![git_intermediate](rebase2-2.png)
+
+!SLIDE center
+## git rebase master server ##
+![git_intermediate](rebase2-3.png)
+
+!SLIDE center
+## git checkout master && git merge server ##
+![git_intermediate](rebase2-4.png)
+
 
 !SLIDE smaller
 # Rebase | Merge #
