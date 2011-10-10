@@ -57,6 +57,3 @@
 
 !SLIDE center
 ![git_workflow](versioning.png)
-
-!SLIDE center
-![git_workflow](questions.jpg)
