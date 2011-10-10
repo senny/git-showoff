@@ -89,7 +89,7 @@
 ![](flow_09.jpg)
 
 !SLIDE
-# Treeish #
+# Commits benennen #
 
 !SLIDE
 # SHA-1 Hash #
