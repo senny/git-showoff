@@ -2,23 +2,23 @@
 # Git Installation #
 
 !SLIDE commandline
-## On UNIX ##
+# On UNIX #
 
-### Compiling from Source
+## Compiling from Source
 
     $ git clone git://git.kernel.org/pub/scm/git/git.git
 
-### Binaries from a Package manager
+## Binaries from a Package manager
 
 !SLIDE
-## On Mac ##
+# On Mac #
 
 * [HomeBrew](http://github.com/mxcl/homebrew) (user-compiled)
 * [MacPorts](http://www.macports.org/) (user-compiled, not recommended)
 * [git-osx-installer](http://code.google.com/p/git-osx-installer/) (precompiled)
 
 !SLIDE
-## On Windows ##
+# On Windows #
 
 * [msysGit](http://code.google.com/p/msysgit/)
 * cygwin
@@ -27,7 +27,7 @@
 # Git Setup and Getting started #
 
 !SLIDE commandline incremental
-## User identity ##
+# User identity #
 
     $ git config --global user.name "Firstname Lastname"
     $ git config --global user.email "your_email@youremail.com"
@@ -52,7 +52,7 @@
 
 
 !SLIDE commandline
-## Zeilenumbrüche ##
+# Zeilenumbrüche #
 .notes show default setting with git config --list
 
 ### Mac und Linux
