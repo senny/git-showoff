@@ -3,7 +3,7 @@
 
 !SLIDE
 # Johannes Bühler [Canoo] #
-* Java / Groovy / Refactoring / CI 
+* Java / Groovy / Refactoring / CI
 * Git seit 2009
 
 Find me on Github: https://github.com/jonnybbb
@@ -15,7 +15,7 @@ Find me on Github: https://github.com/jonnybbb
 
 Find me on Github: https://github.com/senny
 
-!SLIDE
+!SLIDE small
 # Agenda #
 
 Intro
@@ -31,6 +31,10 @@ Arbeiten im Team
 Workflow
 
 Tips
+
+## Mittag ##
+
+Git Internals
 
 Intermediate Git [Übungen]
 
