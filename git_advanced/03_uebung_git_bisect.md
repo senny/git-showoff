@@ -2,8 +2,9 @@
 # Übung #
 ## Commits finden mit git-bisct ##
 
-!SLIDE
+!SLIDE smaller
 ## Wo? ##
+
     $ git clone ./workshop/solutions.bundle
     $ cd solutions
     $ git checkout interactive_rebase_to_split_polluted_branch

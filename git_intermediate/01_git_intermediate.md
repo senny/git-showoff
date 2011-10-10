@@ -76,7 +76,7 @@
   entfernt
 
 !SLIDE smaller
-# Fast Forward #
+# Merging: Fast Forward #
 
 * Merge von einem nicht abgezweiten Branch => Fast Forward
 * Fast Forward Merge => kein Merge-Commit
@@ -84,10 +84,10 @@
 
 !SLIDE center
 
-## git merge --no-ff ##
+## git merge --no-ff topic/feature ##
 ![git_intermediate](merge_no_ff.png)
 
-## git merge --ff-only ##
+## git merge --ff-only topic/feature ##
 ![git_intermediate](merge_ff_only.png)
 
 !SLIDE
@@ -139,4 +139,5 @@
 * NICHT rebasen mit veröffentlichten Commits
 * NICHT rebasen bei grossen Branches
 * Merge ist in der History sichtbar (wenn nicht FF)
-* Rebase ist nicht sichtbar, simuliert lineare History
+* Rebase simuliert lineare History
+* Rebase --onto um Commits zu verschieben
