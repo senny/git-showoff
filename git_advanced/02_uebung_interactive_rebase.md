@@ -22,7 +22,7 @@ Bestehende History gezielt ändern
 
 !SLIDE
 # Aufgaben #
-* Die History soll den Notitzen entsprechend verändert werden
+* Die History soll den Notizen entsprechend verändert werden
   * Commits aufteilen
   * Commits zusammenführen
   * Commit-Nachrichten verändern

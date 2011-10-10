@@ -2,6 +2,9 @@
 
 # Git Workflow #
 
+!SLIDE
+# Struktur der Repositories #
+
 !SLIDE center
 
 # Zentrales Repository #
@@ -20,9 +23,8 @@
 
 ![git_workflow](dictator.png)
 
-!SLIDE center
-
-![git_workflow](gitflow.png)
+!SLIDE
+# Struktur innerhalb eines Repositories #
 
 !SLIDE small
 # Branch Arten #
@@ -54,4 +56,4 @@
     1.1.1
 
 !SLIDE center
-![git_workflow](questions.jpg)
+![git_workflow](versioning.png)

@@ -110,6 +110,3 @@ Aufräumen von remote gelöschten branches
 
 "master" aktualisieren und integrieren
     $ git pull origin master
-
-!SLIDE center
-![git_collaboration](questions.jpg)
