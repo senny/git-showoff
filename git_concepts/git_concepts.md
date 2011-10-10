@@ -81,15 +81,14 @@ log HEAD^^ ist eine Kombination aus rev-parse + log
 ![git_object_model](git_object_model.png)
 
 !SLIDE 
-## teures und billiges tagging ##
-
+## Tags ##
 
 !SLIDE commandline
-## billig
-    $git tag name <treeish>
+## Leichtgewichtig
+    $git tag before_refactoring
 
-## teuer
-    $git tag -a 
+## Annotiert
+    $git tag -a v1.4 -m 'my version 1.4'
 
 !SLIDE bullets
 # Branches in GIT #
@@ -124,6 +123,7 @@ log HEAD^^ ist eine Kombination aus rev-parse + log
 !SLIDE
 # Merge Tooling
 ## Wie konfiguriert man ein graphisches GUI
+
 
 
 !SLIDE bullets
