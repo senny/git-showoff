@@ -4,19 +4,19 @@
 
 !SLIDE center
 
-# Centralized Workflow #
+# Zentrales Repository #
 
 ![git_workflow](centralized.png)
 
 !SLIDE center
 
-# Integration-Manager Workflow #
+# Integrator #
 
 ![git_workflow](integrator.png)
 
 !SLIDE center
 
-# Dictator and Lieutenants Workflow #
+# Diktator & Leutnant #
 
 ![git_workflow](dictator.png)
 
