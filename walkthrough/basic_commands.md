@@ -22,7 +22,7 @@ git log
 
 git rm filename
 git commit
-explain status change from  tracked -> untracked
+Status wechsel von tracked -> untracked
 
 gelöschte Datei wiederherstellen
 git log --diff-filter=D --summary
