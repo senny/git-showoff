@@ -20,7 +20,7 @@ Find me on Github: https://github.com/senny
 
 Intro
 
-Installation
+Installation + Tips
 
 Erste Schritte
 
@@ -29,8 +29,6 @@ Konzepte
 Arbeiten im Team
 
 Workflow
-
-Tips
 
 ## Mittag ##
 
