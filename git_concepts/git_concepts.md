@@ -55,7 +55,6 @@ log HEAD^^ ist eine Kombination aus rev-parse + log
 * Verwendung von hardlinks
 * zlib zum komprimieren
 
-
 !SLIDE
 ## Server orientierte VCSs verwenden sequentielle Versions Nummern ##
 
@@ -75,10 +74,6 @@ log HEAD^^ ist eine Kombination aus rev-parse + log
 * werden durch den SHA1-Hash ihres Inhalts eindeutig identifiziert
 * sind unveränderlich
 * werden wiederverwendet
-
-
-!SLIDE center
-![git_object_model](git_object_model.png)
 
 !SLIDE
 ## Tags ##
@@ -131,15 +126,12 @@ log HEAD^^ ist eine Kombination aus rev-parse + log
 # Merge Tooling
 ## Wie konfiguriert man ein graphisches GUI
 
-
-
 !SLIDE bullets
 # Das .git Verzeichnis #
 * liegt im Root der Working Copy
 * enthält alle Commits
 * enthält Branches
 * enthält (lokale) Konfiguration etc.
-
 
 !SLIDE
 # Treeish #
