@@ -5,16 +5,16 @@
 !SLIDE
 ## Architecture ##
 
-!SLIDE center 
+!SLIDE center
 ![plumbing_and_porcelain](plumbing_porcelain.png)
 
-!SLIDE center 
+!SLIDE center
 ![plumbing_and_porcelain_commands](plumbing_porcelain_2.png)
 
 !SLIDE code
 log HEAD^^ ist eine Kombination aus rev-parse + log
 
-!SLIDE 
+!SLIDE
 # Git Tips #
 
 !SLIDE commandline small
@@ -41,10 +41,10 @@ log HEAD^^ ist eine Kombination aus rev-parse + log
 ![](18333fig0105-tn.png)
 
 
-!SLIDE 
+!SLIDE
 ## Git uses DAG storage ##
 
-!SLIDE 
+!SLIDE
 ## Directed Acyclic Graph ##
 
 !SLIDE
@@ -60,7 +60,7 @@ log HEAD^^ ist eine Kombination aus rev-parse + log
 ## Server orientierte VCSs verwenden sequentielle Versions Nummern ##
 
 !SLIDE
-## Git verwendet den SHA-1 hash 
+## Git verwendet den SHA-1 hash
 
 !SLIDE bullets
 # Ein Commit in GIT umfasst #
@@ -80,7 +80,7 @@ log HEAD^^ ist eine Kombination aus rev-parse + log
 !SLIDE center
 ![git_object_model](git_object_model.png)
 
-!SLIDE 
+!SLIDE
 ## Tags ##
 
 !SLIDE commandline
@@ -96,21 +96,28 @@ log HEAD^^ ist eine Kombination aus rev-parse + log
 * Ausgecheckter Branch "bewegt" sich beim Committen
 * Jedes Repository hat seine Branches
 
-!SLIDE commandline 
+!SLIDE commandline
 # Branching #
-## Erzeugen   
-    $git branch branchname
-## Anzeigen
-    $git branch -a
-    $git branch -r
-    $git branch --no-merged
 
-## Löschen 
-    $git branch -d branchname
+## Erzeugen
+
+    $ git branch branchname
+
+## Anzeigen
+
+    $ git branch -a
+    $ git branch -r
+    $ git branch --no-merged
+    $ git branch --merged
+
+## Löschen
+
+    $ git branch -d branchname
 
 !SLIDE commandline
 # Merging
-    $git merge branchname
+
+    $ git merge branchname
 
 !SLIDE bullets
 # Merge Strategien

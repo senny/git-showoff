@@ -1,16 +1,16 @@
 !SLIDE subsection
 # Git Grundlagen #
 
-!SLIDE commandline incremental 
+!SLIDE commandline incremental
 ## Unser erstes Repository ##
 
     $ git init
     $ touch readme.txt
     $ git add readme.txt
     $ git status
-    $ git commit 
+    $ git commit
     $ mkdir subdir
-    $ cd subdir  
+    $ cd subdir
     $ touch readme2.txt
     $ git status
     $ git add .
@@ -26,7 +26,7 @@
 
 !SLIDE center
 # Mögliche Stati von Dateien in einem git Repository #
- 
+
 ![git_file_stati](git_file_stati.png)
 
 .notes explain file stati
@@ -36,23 +36,23 @@
 
 !SLIDE commandline
 ## remove ##
-    $git rm filename
-  
-    $rm filename
-    $git add filename
+    $ git rm filename
+
+    $ rm filename
+    $ git add filename
 
 
 !SLIDE commandline
-## rename 
-    $git mv from to
+## rename
+    $ git mv from to
 
-    $mv from to
-    $git add to
+    $ mv from to
+    $ git add to
 
-!SLIDE code
-## rename detection      
-    
-    $git log -M80%     
+!SLIDE commandline
+## rename detection
+
+    $ git log -M80%
 
 !SLIDE commandline
 ## Ignoring Files ##
