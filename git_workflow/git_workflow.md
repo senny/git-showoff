@@ -43,9 +43,6 @@
 
     bugfix/login_fuer_deaktivierte_benutzer_verhindern
 
-!SLIDE center
-![git_workflow](versioning.png)
-
 !SLIDE small
 # Tag Arten #
 
@@ -57,6 +54,9 @@
 ## Versionen ##
     1.0.0
     1.1.1
+
+!SLIDE center
+![git_workflow](versioning.png)
 
 !SLIDE center
 ![git_workflow](questions.jpg)
