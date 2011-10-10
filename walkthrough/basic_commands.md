@@ -1,4 +1,5 @@
 # Initial
+mkdir hellogitworld
 git init
 git add filename
 mkdir subdir
@@ -105,6 +106,19 @@ file, das Konflikt enthält, editieren oder mergetool
 git add
 git commit //ohne message. git erzeugt message die konfliktdateien enthält 
 
+# pull und push 
+git remote add origin git@github.com:jonnybbb/hellogitworld.git
+git push -u origin master
 
+Teilnehmer cloned repo und macht einen commit mit anschliessendem push
 
+git branch -a
+git push -u origin feature1:feature_1
+git co master
+git branch --no-merged
+git branch -D feature1
+git push -u origin :feature_1
 
+git push --tags
+
+Frage beantantworten git init --share=group
