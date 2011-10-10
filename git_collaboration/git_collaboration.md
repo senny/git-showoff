@@ -27,13 +27,16 @@ Inhalt eines Remotes holen und integrieren (Fetch + Merge)
 # Push #
 Lokale Änderungen an ein Remote senden
 
-!SLIDE smbullets
+!SLIDE
 # Internet <-> Git
 
-* minimale Kommunikation mit Remotes
-* Das meiste geht offline (ausser: fetch, pull, push)
-* Ein Git-Repository kann mit beliebig vielen Remotes verknüpft werden
-* Auf Remotes kann man entweder lesen, schreiben oder beides
+minimale Kommunikation mit Remotes
+
+Das meiste geht offline (ausser: fetch, pull, push)
+
+Ein Git-Repository kann mit beliebig vielen Remotes verknüpft werden
+
+Auf Remotes kann man entweder lesen, schreiben oder beides
 
 !SLIDE
 # Beispiel: Ablauf der Zusammenarbeit mit Git #
@@ -63,7 +66,7 @@ Lokale Änderungen an ein Remote senden
 # Befehle #
 
 !SLIDE commandline small
-# git-remote [command] [name] #
+# git-remote #
 
 Remote hinzufügen
     $ git remote add origin git@github.com:senny/git-showoff.git
@@ -80,7 +83,7 @@ Remote löschen
     $ git remote rm origin
 
 !SLIDE commandline
-# git-fetch [remote] [refspec] #
+# git-fetch #
 
 Alle Änderungen von "origin" holen
     $ git fetch origin
@@ -89,7 +92,7 @@ Alle Änderungen von "origin" holen
     $ git fetch origin master
 
 !SLIDE commandline
-# git-push [remote] [refspec] #
+# git-push #
 Änderungen auf dem "master" Branch veröffentlichen
     $ git push origin master
 
@@ -103,7 +106,7 @@ Aufräumen von remote gelöschten branches
     $ git remote prune origin
 
 !SLIDE commandline
-# git pull [remote] [refspec]
+# git pull
 
 "master" aktualisieren und integrieren
     $ git pull origin master
