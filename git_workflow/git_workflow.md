@@ -2,6 +2,9 @@
 
 # Git Workflow #
 
+!SLIDE
+# Struktur der Repositories #
+
 !SLIDE center
 
 # Zentrales Repository #
@@ -20,9 +23,8 @@
 
 ![git_workflow](dictator.png)
 
-!SLIDE center
-
-![git_workflow](gitflow.png)
+!SLIDE
+# Struktur innerhalb eines Repositories #
 
 !SLIDE small
 # Branch Arten #
@@ -40,6 +42,9 @@
 ## Bugfix Branches ##
 
     bugfix/login_fuer_deaktivierte_benutzer_verhindern
+
+!SLIDE center
+![git_workflow](versioning.png)
 
 !SLIDE small
 # Tag Arten #
